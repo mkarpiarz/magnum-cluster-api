@@ -271,7 +271,7 @@ pub mod fixtures {
             .enable_etcd_volume(false)
             .etcd_volume_size(0)
             .etcd_volume_type("".into())
-            .availability_zone("az1".into())
+            .availability_zone("nova".into())
             .admission_control_list("NodeRestriction".into())
             .build()
     }
